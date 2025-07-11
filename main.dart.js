@@ -8736,14 +8736,15 @@ aEv:function aEv(){},
 QV:function QV(a){this.a=a},
 Oc:function Oc(a){this.a=a},
 aE0(a){return A.b7S(a)},
-b7S(a){var s=0,r=A.G(t.D),q,p,o,n,m
+b7S(a){var s=0,r=A.G(t.D),q,p,o,n,m,l
 var $async$aE0=A.B(function(b,c){if(b===1)return A.D(c,r)
-while(true)switch(s){case 0:s=3
-return A.y($.qP().m_(0,"assets/fonts/NotoSans-Regular.ttf"),$async$aE0)
-case 3:p=c
+while(true)switch(s){case 0:l=A
+s=3
+return A.y($.qP().m_(0,"assets/fonts/NotoSans-Regular-Font.ttf"),$async$aE0)
+case 3:p=new l.Vt(c,null)
 o=A.a([],t.gf)
 n=new A.a8V(A.b_f(!0,null,B.aL6,!1,B.Fz),o)
-m=A.aZK(new A.aE2(a,new A.Vt(p,null)),new A.rj(20,20,20,20),B.Fy)
+m=A.aZK(new A.aE2(a,p),new A.rj(20,20,20,20),B.Fy,A.b1K(p,p,p,p))
 m.a4h(n,null)
 o.push(m)
 q=n.iw(0)
@@ -29936,7 +29937,7 @@ _.b=c
 _.c=d
 _.d=e
 _.e=f},
-aZK(a,b,c){var s=A.a([],t.Pm),r=new A.ajB(c,B.aJe,b,null,!1,null)
+aZK(a,b,c,d){var s=A.a([],t.Pm),r=new A.ajB(c,B.aJe,b,d,!1,null)
 return new A.Rf(a,s,r,new A.aiP())},
 asU:function asU(){},
 fi:function fi(){},
@@ -30085,7 +30086,7 @@ _.ch=q
 _.CW=r
 _.cx=s
 _.cy=a0},
-b1K(){var s=null,r=A.ur(s,B.aJj,B.aPe,s,B.aPc,1,s,new A.ll(B.qq),new A.ll(B.qr),B.ei,new A.ll(B.qs),new A.ll(B.qp),12,B.RR,B.RS,1,!1,0,0,B.pq,1).auW(s,s,s,s,s,s),q=r.w
+b1K(a,b,c,d){var s=null,r=A.ur(s,B.aJj,B.aPe,s,B.aPc,1,s,new A.ll(B.qq),new A.ll(B.qr),B.ei,new A.ll(B.qs),new A.ll(B.qp),12,B.RR,B.RS,1,!1,0,0,B.pq,1).auW(a,b,c,s,d,a),q=r.w
 q.toString
 r.a_Y(5)
 r.a_Y(5)
@@ -108440,7 +108441,7 @@ m=b6.b
 l=b6.d
 k=m+l
 j=s.gzl()?new A.hN(0,b4.glc().b-k,0,b4.glc().a-b6.gc6()):new A.hN(0,b4.glc().a-b6.gc6(),0,b4.glc().b-k)
-i=A.b1K()
+i=s.f
 k=b7.a
 h=A.fQ(b5,b5,b5,t.u,t.Sb)
 g=A.a([i],t.PX)
