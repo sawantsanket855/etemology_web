@@ -8701,7 +8701,7 @@ r=o.h(0,i)}else break
 if(r>=h||p>10)break;++p
 A.lY("pageCount : "+p)}return s},
 b3m(a,b,c){var s,r,q,p,o,n,m,l=null,k=A.pu(l,l,l,l,l,B.bs,B.b2,l,B.aK,B.bi)
-try{s=A.em(l,l,l,l,l,l,l,l,l,l,l,13,l,l,l,l,l,!0,l,l,l,l,l,l,l,1.6)
+try{s=A.em(l,l,l,l,l,l,l,l,l,l,l,14,l,l,l,l,l,!0,l,0.8,l,l,l,l,l,l)
 r=0
 q=b.length
 p=0
@@ -8725,7 +8725,7 @@ n=A.a([],k)
 for(;a+o<b.length;){if(p+d<b[a+o].b)break
 if(J.e(o,J.i(r,q))){A.k(p)
 k=t.z
-k=A.ac(["wordIndex",a+o,"text",B.p.S(c,d,b[a+o].a-1-d),h,n,"height",J.i(s,q),"globalResult",b[a+o].a-1-d],k,k)
+k=A.ac(["wordIndex",a+o,"text",B.p.S(c,d,b[a+o].a-1),h,n,"height",J.i(s,q),"globalResult",b[a+o].a-1],k,k)
 return k}J.fg(n,b[a+o]);++o
 A.k(o)}if(o<J.i(r,q)){A.k(o);++q}else{m=p+d
 m
